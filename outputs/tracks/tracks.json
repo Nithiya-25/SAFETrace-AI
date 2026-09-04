@@ -1,0 +1,139 @@
+{
+  "video_path": "data/sample_videos/test.mp4",
+  "camera_id": null,
+  "tracks": [
+    {
+      "track_id": 1,
+      "duration": 9.75,
+      "average_confidence": 0.8155,
+      "num_observations": 290,
+      "crop_paths": [
+        "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_1\\frame_0.jpg",
+        "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_1\\frame_30.jpg",
+        "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_1\\frame_60.jpg",
+        "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_1\\frame_90.jpg",
+        "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_1\\frame_120.jpg"
+      ],
+      "reid_similarity_score": null,
+      "status": "Potential Candidate"
+    },
+    {
+      "track_id": 2,
+      "duration": 2.5,
+      "average_confidence": 0.4536,
+      "num_observations": 33,
+      "crop_paths": [
+        "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_2\\frame_4.jpg",
+        "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_2\\frame_48.jpg",
+        "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_2\\frame_78.jpg"
+      ],
+      "reid_similarity_score": null,
+      "status": "Potential Candidate"
+    },
+    {
+      "track_id": 3,
+      "duration": 2.4,
+      "average_confidence": 0.4341,
+      "num_observations": 15,
+      "crop_paths": [
+        "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_3\\frame_41.jpg",
+        "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_3\\frame_83.jpg"
+      ],
+      "reid_similarity_score": null,
+      "status": "Potential Candidate"
+    },
+    {
+      "track_id": 5,
+      "duration": 7.15,
+      "average_confidence": 0.7675,
+      "num_observations": 202,
+      "crop_paths": [
+        "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_5\\frame_77.jpg",
+        "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_5\\frame_107.jpg",
+        "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_5\\frame_137.jpg",
+        "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_5\\frame_167.jpg",
+        "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_5\\frame_197.jpg"
+      ],
+      "reid_similarity_score": null,
+      "status": "Potential Candidate"
+    },
+    {
+      "track_id": 12,
+      "duration": 4.52,
+      "average_confidence": 0.7237,
+      "num_observations": 135,
+      "crop_paths": [
+        "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_12\\frame_155.jpg",
+        "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_12\\frame_185.jpg",
+        "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_12\\frame_215.jpg",
+        "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_12\\frame_245.jpg",
+        "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_12\\frame_275.jpg"
+      ],
+      "reid_similarity_score": null,
+      "status": "Potential Candidate"
+    },
+    {
+      "track_id": 13,
+      "duration": 3.27,
+      "average_confidence": 0.4694,
+      "num_observations": 62,
+      "crop_paths": [
+        "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_13\\frame_192.jpg",
+        "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_13\\frame_222.jpg",
+        "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_13\\frame_252.jpg",
+        "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_13\\frame_282.jpg"
+      ],
+      "reid_similarity_score": null,
+      "status": "Potential Candidate"
+    },
+    {
+      "track_id": 17,
+      "duration": 1.32,
+      "average_confidence": 0.4693,
+      "num_observations": 28,
+      "crop_paths": [
+        "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_17\\frame_248.jpg",
+        "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_17\\frame_278.jpg"
+      ],
+      "reid_similarity_score": null,
+      "status": "Potential Candidate"
+    }
+  ],
+  "annotated_video": "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\annotated_videos\\test_annotated.mp4",
+  "person_crops": [
+    "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_1\\frame_0.jpg",
+    "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_1\\frame_30.jpg",
+    "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_1\\frame_60.jpg",
+    "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_1\\frame_90.jpg",
+    "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_1\\frame_120.jpg",
+    "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_2\\frame_4.jpg",
+    "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_2\\frame_48.jpg",
+    "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_2\\frame_78.jpg",
+    "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_3\\frame_41.jpg",
+    "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_3\\frame_83.jpg",
+    "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_5\\frame_77.jpg",
+    "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_5\\frame_107.jpg",
+    "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_5\\frame_137.jpg",
+    "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_5\\frame_167.jpg",
+    "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_5\\frame_197.jpg",
+    "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_12\\frame_155.jpg",
+    "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_12\\frame_185.jpg",
+    "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_12\\frame_215.jpg",
+    "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_12\\frame_245.jpg",
+    "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_12\\frame_275.jpg",
+    "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_13\\frame_192.jpg",
+    "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_13\\frame_222.jpg",
+    "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_13\\frame_252.jpg",
+    "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_13\\frame_282.jpg",
+    "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_17\\frame_248.jpg",
+    "E:\\DOWNLLODS\\files\\SAFETrace\\SAFETrace\\outputs\\person_crops\\track_17\\frame_278.jpg"
+  ],
+  "performance": {
+    "video_duration_seconds": 9.79,
+    "processing_time_seconds": 121.29,
+    "frames_processed": 290,
+    "total_detections": 765,
+    "unique_tracks": 7,
+    "average_confidence": 0.7228
+  }
+}

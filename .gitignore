@@ -1,0 +1,144 @@
+# ==========================================
+# SAFETrace-AI - Git Ignore
+# Member 1: AI / Computer Vision
+# ==========================================
+
+
+# ------------------------------------------
+# Python cache files
+# ------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+# ------------------------------------------
+# Virtual environments
+# ------------------------------------------
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+
+# ------------------------------------------
+# Python build / packaging
+# ------------------------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+
+# ------------------------------------------
+# Jupyter Notebook
+# ------------------------------------------
+.ipynb_checkpoints/
+
+
+# ------------------------------------------
+# VS Code
+# ------------------------------------------
+.vscode/
+
+
+# ------------------------------------------
+# Operating system files
+# ------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# ------------------------------------------
+# Environment variables / secrets
+# ------------------------------------------
+.env
+.env.*
+!.env.example
+
+
+# ------------------------------------------
+# Video files
+# Keep videos locally for testing.
+# Do NOT upload CCTV/sample videos.
+# ------------------------------------------
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wmv
+*.flv
+*.webm
+
+
+# ------------------------------------------
+# Image files generated during processing
+# Do NOT upload generated person crops.
+# ------------------------------------------
+outputs/person_crops/*
+*.tmp
+
+
+# ------------------------------------------
+# Generated annotated videos
+# ------------------------------------------
+outputs/annotated_videos/*
+
+
+# ------------------------------------------
+# Generated AI output files
+# ------------------------------------------
+outputs/tracks/*
+
+# Keep the important sample AI result
+!outputs/tracks/tracks.json
+
+
+# ------------------------------------------
+# YOLO / ML model weights
+# Keep locally; don't upload large model files.
+# ------------------------------------------
+*.pt
+*.pth
+*.onnx
+*.weights
+
+
+# ------------------------------------------
+# Logs
+# ------------------------------------------
+*.log
+logs/
+
+
+# ------------------------------------------
+# Temporary files
+# ------------------------------------------
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+
+# ------------------------------------------
+# Test / coverage files
+# ------------------------------------------
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+
+# ------------------------------------------
+# SAFETrace local files
+# ------------------------------------------
+*.sqlite
+*.db
+*.sqlite3
