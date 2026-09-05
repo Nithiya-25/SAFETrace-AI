@@ -1,0 +1,121 @@
+# ============================================
+# SAFETrace AI - Git Ignore
+# ============================================
+
+# -----------------------------
+# Python cache
+# -----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# -----------------------------
+# Virtual environments
+# -----------------------------
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# -----------------------------
+# VS Code
+# -----------------------------
+.vscode/
+
+# -----------------------------
+# Environment variables / secrets
+# -----------------------------
+.env
+.env.*
+!.env.example
+
+# -----------------------------
+# Video files
+# -----------------------------
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wmv
+*.flv
+*.webm
+
+# -----------------------------
+# AI model weights
+# -----------------------------
+*.pt
+*.pth
+*.onnx
+*.weights
+
+# -----------------------------
+# Generated person crops
+# -----------------------------
+outputs/person_crops/*
+!outputs/person_crops/.gitkeep
+
+# -----------------------------
+# Generated annotated videos
+# -----------------------------
+outputs/annotated_videos/*
+
+# -----------------------------
+# Generated AI tracking outputs
+# -----------------------------
+outputs/tracks/*
+!outputs/tracks/.gitkeep
+!outputs/tracks/tracks.json
+
+# -----------------------------
+# Temporary files
+# -----------------------------
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# -----------------------------
+# Logs
+# -----------------------------
+*.log
+logs/
+
+# -----------------------------
+# Testing / coverage
+# -----------------------------
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# -----------------------------
+# Jupyter
+# -----------------------------
+.ipynb_checkpoints/
+
+# -----------------------------
+# Build files
+# -----------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# -----------------------------
+# Database files
+# -----------------------------
+*.sqlite
+*.sqlite3
+*.db
+
+# -----------------------------
+# OS files
+# -----------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
