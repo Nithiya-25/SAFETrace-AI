@@ -1,0 +1,44 @@
+{
+    "video_id": "VID-001",
+    "tracks": [
+        {
+            "track_id": 7,
+            "first_seen": "00:00:10",
+            "last_seen": "00:00:27",
+            "duration": 17,
+            "frame_count": 510,
+            "average_confidence": 0.89,
+            "visual_similarity": 0.86,
+            "time_location_score": 0.9,
+            "crop_paths": [
+                "outputs/person_crops/track_7/frame_120.jpg",
+                "outputs/person_crops/track_7/frame_180.jpg"
+            ],
+            "detections": [
+                {
+                    "frame_number": 325,
+                    "timestamp": "00:00:13.52",
+                    "x1": 412,
+                    "y1": 145,
+                    "x2": 510,
+                    "y2": 382,
+                    "confidence": 0.91
+                }
+            ]
+        },
+        {
+            "track_id": 12,
+            "first_seen": "00:01:05",
+            "last_seen": "00:01:20",
+            "duration": 15,
+            "frame_count": 300,
+            "average_confidence": 0.72,
+            "visual_similarity": null,
+            "time_location_score": 0.6,
+            "crop_paths": [
+                "outputs/person_crops/track_12/frame_090.jpg"
+            ],
+            "detections": []
+        }
+    ]
+}
