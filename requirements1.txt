@@ -1,0 +1,38 @@
+# ============================================
+# SAFETrace AI - Project Dependencies
+# ============================================
+
+# -----------------------------
+# AI / Computer Vision
+# -----------------------------
+ultralytics
+torch
+torchvision
+opencv-python
+numpy
+pandas
+
+# -----------------------------
+# Object Tracking
+# -----------------------------
+lap
+
+# -----------------------------
+# Backend / REST API
+# -----------------------------
+fastapi
+uvicorn
+python-multipart
+
+# -----------------------------
+# Database
+# -----------------------------
+sqlalchemy
+psycopg2-binary
+
+# -----------------------------
+# Frontend / Dashboard
+# -----------------------------
+streamlit
+requests
+pillow
