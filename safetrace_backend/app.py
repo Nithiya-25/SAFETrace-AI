@@ -15,7 +15,7 @@ as "Potential Lead" candidates that require human investigator review.
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
-import database
+from . import database
 import case_service
 import video_service
 import evidence_service
